@@ -27,7 +27,7 @@ jobs:
       - name: Build application
         run: npm run build
 
-      # Intentional: upload points at ./dist/ but build writes to ./build/
+      # Intentional: upload points at ./dist/ but build writes to ./build/ .
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
